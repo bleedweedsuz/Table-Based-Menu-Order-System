@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tableListSnack"
+    tools:context=".TableList">
+    <RelativeLayout
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/mainBack"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_height="70dp"
+                android:layout_width="match_parent"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="5dp"
+                card_view:cardUseCompatPadding="true"
+                android:foreground="@drawable/ripple"
+                android:layout_alignParentStart="true"
+                android:onClick="Confirm_OnClick"
+                android:clickable="true"
+                android:layout_weight="1">
+                <!--BTN-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Comfrim Order / Update Order"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="26dp"
+                    android:background="#faf1cd" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_height="70dp"
+                android:layout_width="match_parent"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="5dp"
+                card_view:cardUseCompatPadding="true"
+                android:foreground="@drawable/ripple"
+                android:layout_alignParentStart="true"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:onClick="BillPlease">
+                <!--BTN-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Bill Please"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="26dp"
+                    android:background="#faf1cd" />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RMainViewList"
+        android:layout_marginLeft="0dp"
+        android:layout_below="@+id/mainBack" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pBar"
+        android:visibility="gone"
+        android:indeterminate="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

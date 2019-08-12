@@ -1,0 +1,41 @@
+.BoxContainer {
+	height: auto;
+	width: 100%;
+	clear: both;
+	background-color: #FBF8F8;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+	padding: 5px;
+	margin:10px;
+}
+.InputBox{
+	width:90%;
+	height: auto;
+	padding-top:0.4em;
+	padding-left:0.1em;
+	padding-right:0.1em;
+	padding-bottom:0.4em;
+	background:#FBF9F9;
+	margin:5px;
+}
+.TextAreaBox{
+	width:90%;
+	height: 100px;
+	padding-top:0.4em;
+	padding-left:0.1em;
+	padding-right:0.1em;
+	padding-bottom:0.4em;
+	background:#FBF9F9;
+	margin:5px;
+}
+.DialogBox{
+	width:100%;
+	height: auto;
+	padding-top:0.4em;
+	padding-left:0.1em;
+	padding-right:0.1em;
+	padding-bottom:0.4em;
+	background:#FBF9F9;
+	margin:10px;
+}

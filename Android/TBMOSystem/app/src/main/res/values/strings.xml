@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TBMO System</string>
+    <string name="action_settings">action_settings</string>
+    <string name="back">back</string>
+    <string-array name="adminList">
+        <item>Admin</item>
+        <item>Staff</item>
+    </string-array>
+    <string-array name="foodCategory">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="descriptionOpen">Open</string>
+    <string name="descriptionClose">Close</string>
+    <string name="demoDetails">
+        Material utilises classic principles from print design to create clean, simple layouts that put your content front and center. Bold deliberate color choices, intentional whitespace, tasteful typography and a strong baseline grid create hierarchy, meaning and focus.
+        Material utilises classic principles from print design to create clean, simple layouts that put your content front and center. Bold deliberate color choices, intentional whitespace, tasteful typography and a strong baseline grid create hierarchy, meaning and focus.
+    </string>
+    <string-array name="UserMenuList">
+        <item>Home</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="OtherUserMenuList">
+        <item>Refresh Data</item>
+        <item>Logout</item>
+    </string-array>
+</resources>

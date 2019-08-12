@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/button9"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/delete"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Name:"
+            android:id="@+id/textView3"
+            android:textStyle="bold"
+            android:textSize="27dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/button9"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/iName"
+            android:textSize="27dp"
+            android:layout_alignTop="@+id/button9"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity:"
+            android:id="@+id/textView6"
+            android:textStyle="bold"
+            android:textSize="27dp"
+            android:layout_marginLeft="689dp"
+            android:layout_marginStart="235dp"
+            android:layout_alignTop="@+id/iName"
+            android:layout_toEndOf="@+id/iName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/iQuantity"
+            android:layout_alignTop="@+id/button9"
+            android:layout_toEndOf="@+id/textView6"
+            android:textSize="27dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="3dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button10"
+            android:layout_alignTop="@+id/button9"
+            android:layout_toEndOf="@+id/iQuantity"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

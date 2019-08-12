@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="180dp"
+                android:layout_height="180dp">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:id="@+id/adminLogin"
+
+                    android:layout_alignParentEnd="true"
+
+                    android:src="@drawable/ripple2"
+                    android:scaleType="centerInside"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/userlogin" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Login"
+                android:id="@+id/mainUserLogin"
+                android:textSize="29dp"
+                android:textColor="#162044" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="180dp"
+                android:layout_height="180dp">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:id="@+id/userManual"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mainmanual"
+                    android:src="@drawable/ripple2" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customer Manual"
+                android:id="@+id/mainUserManual"
+                android:textSize="29dp"
+                android:textColor="#162044" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="180dp"
+                android:layout_height="180dp">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:id="@+id/customerLogin"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/customer"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ripple2" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customer"
+                android:id="@+id/mainCustomer"
+                android:textSize="29dp"
+                android:textColor="#162044" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="180dp"
+                android:layout_height="180dp">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:id="@+id/restaurantInfo"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/restaurantdetail"
+                    android:src="@drawable/ripple2" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant Info"
+                android:id="@+id/mainRestaurantInfo"
+                android:textSize="29dp"
+                android:textColor="#162044" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
